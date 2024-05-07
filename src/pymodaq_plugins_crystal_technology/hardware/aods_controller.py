@@ -10,7 +10,7 @@ import toml
 import numpy as np
 from numpy.polynomial import Polynomial
 
-from pymodaq.daq_utils.daq_utils import set_logger
+from pymodaq.utils.logger import set_logger
 
 
 path = Path(r'C:\Program Files\Crystal Technology\Developer\AotfLibrary\Dll')

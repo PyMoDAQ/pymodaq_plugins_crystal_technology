@@ -1,6 +1,6 @@
 import importlib
 from pathlib import Path
-from ... import set_logger
+from pymodaq_plugins_crystal_technology import set_logger
 logger = set_logger('viewer0D_plugins', add_to_console=False)
 
 for path in Path(__file__).parent.iterdir():
