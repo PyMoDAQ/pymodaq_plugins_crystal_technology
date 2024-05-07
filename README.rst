@@ -23,11 +23,6 @@ Authors
 
 * Sébastien J. Weber  (sebastien.weber@cnrs.fr)
 
-.. if needed use this field
-    Contributors
-    ============
-    * First Contributor
-    * Other Contributors
 
 Instruments
 ===========
@@ -39,23 +34,4 @@ Actuators
 
 * **AOTFPro**: control of the AOTF from YSl and Crystal Technology
 
-Viewer0D
-++++++++
 
-
-Viewer1D
-++++++++
-
-
-
-
-Viewer2D
-++++++++
-
-
-
-..
-    Infos
-    =====
-
-    if needed for installation or other infos
