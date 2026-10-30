@@ -16,6 +16,8 @@ class DAQ_Move_AOTF(DAQ_Move_base):
         The particular object that allow the communication with the hardware, in general a python wrapper around the
          hardware library
     """
+
+    supported_platforms = ('win32',)  # a Windows DLL (AotfLibrary.dll)
     _controller_units = 'nm' #here the units could be either a wavelength in nm or a percentage to set the amplitude
     is_multiaxes = True
     axes_names = [str(ind) for ind in range(8)]  # There are 8 channels controllable by the controller
